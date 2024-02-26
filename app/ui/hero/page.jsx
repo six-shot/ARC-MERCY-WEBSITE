@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../navbar/page";
 import hero from "@/public/hero.jpg";
+import Image from "next/image";
+import star from "@/public/star.png";
 export default function Hero() {
   return (
     <div className="bg-white w-full">
@@ -10,12 +12,15 @@ export default function Hero() {
           <div className="grid sm:grid-cols-12 grid-cols-1 w-full items-center">
             <div className="col-span-9">
               <div className="flex flex-col">
-                <div>
-                  <h1 className="sm:text-[65px] text-[40px] leading-[55px] ">
+                <div className="flex items-center gap-3">
+                  <h1 className="sm:text-[65px] text-[40px] leading-[px] ">
                     ARCHITECTURAL
                   </h1>
+                  <div className="sm:flex hidden">
+                    <Image className="w-[60px]" src={star} alt="star" />
+                  </div>
                 </div>
-                <div className="sm:flex hidden items-center gap-10">
+                <div className="sm:flex hidden items-center gap-6">
                   <div className="">
                     <h4 className="text-right text-xs font-medium">
                       MODERN
@@ -26,7 +31,7 @@ export default function Hero() {
                     </h4>
                   </div>
                   <div className="">
-                    <h1 className=" sm:text-[65px] text-[40px] ">
+                    <h1 className=" sm:text-[65px] text-[40px] -mt-8">
                       COSTAL DESIGN
                     </h1>
                   </div>
@@ -46,8 +51,10 @@ export default function Hero() {
                       <h1 className="  text-[40px] ">COSTAL</h1>
                     </div>
                   </div>
-                  <div className="sm:pb-0 pb-[4%]">
+                  <div className="sm:pb-0 pb-[4%] flex items-center gap-4">
                     <h1 className="  text-[40px] ">DESIGN</h1>
+
+                    <Image className="w-[50px]" src={star} alt="star" />
                   </div>
                 </div>
               </div>
@@ -129,7 +136,7 @@ export default function Hero() {
                   </h4>
                 </div>
               </div>
-              <div className="grid grid-cols-4  mt-[2%] w-full">
+              <div className="grid grid-cols-3 gap-10  mt-[2%] w-full">
                 <div className="border border-black    rounded-[50px] w-full  grid grid-cols-12  items-center">
                   <div className="col-span-5 border-r-[1px] border-black h-full">
                     <div className="flex items-center h-full px-5 py-1">
@@ -139,12 +146,12 @@ export default function Hero() {
                   <div className="col-span-7">
                     <div className="flex flex-col  py-1">
                       <h5 className=" text-sm font-semibold px-3 ">46 Views</h5>
-                      <div className="border border-b-black w-full"></div>
+
+                      <hr className=" border-black h-[1px]" />
                       <h5 className="text-sm font-semibold px-3 ">46 Views</h5>
                     </div>
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
