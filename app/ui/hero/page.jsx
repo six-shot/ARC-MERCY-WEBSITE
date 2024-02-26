@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../navbar/page";
-
+import hero from "@/public/hero.jpg";
 export default function Hero() {
   return (
     <div className="bg-white w-full">
       <div className="max-w-[1440px] mx-auto px-[4%] ">
         <Navbar />
-        <div className="sm:h-[35vh] pt-[5%]   flex items-center ">
+        <div className="sm:h-[25vh] pt-[5%]   flex items-center ">
           <div className="grid sm:grid-cols-12 grid-cols-1 w-full items-center">
             <div className="col-span-9">
               <div className="flex flex-col">
@@ -66,6 +66,25 @@ export default function Hero() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-[5%]">
+          <div
+            style={{
+              // use the src property of the image object
+              backgroundImage: `url(${hero.src})`,
+              // other styles
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "100vh",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+              borderRadius: "14px",
+            }}
+          ></div>
         </div>
       </div>
     </div>
