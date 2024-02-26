@@ -30,7 +30,7 @@ function ImageSlider() {
           backgroundRepeat: "no-repeat",
           width: "100%",
           height: "55vh",
-          padding: "5%",
+          padding: "3%",
           borderRadius: "14px",
           position: "relative",
           objectFit: "cover",
@@ -67,7 +67,7 @@ function ImageSlider() {
             </div>
           </div>
         </div>
-        <div className="absolute w-[90%] bottom-0">
+        <div className="absolute w-[90%] bottom-[7%]">
           <div className="flex justify-between items-center w-full">
             <div className=" flex justify-between items-center sm:w-[200px] w-[180px] h-[40px] bg-white px-2 pl-4 rounded-[50px]">
               <div className="flex gap-2 items-center">

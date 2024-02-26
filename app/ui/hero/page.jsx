@@ -6,7 +6,7 @@ import star from "@/public/star.png";
 import ImageSlider from "../slider/page";
 export default function Hero() {
   return (
-    <div className="bg-white w-full">
+    <div className="bg-white h-screen w-full relative">
       <div className="max-w-[1440px] mx-auto px-[4%] ">
         <Navbar />
         <div className="sm:h-[25vh] pt-[5%]   flex items-center ">
@@ -113,6 +113,7 @@ export default function Hero() {
           <ImageSlider />
         </div>
       </div>
+      <div className="absolute w-[50px] bg-black-gradient " />
     </div>
   );
 }
