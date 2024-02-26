@@ -78,8 +78,8 @@ export default function Hero() {
         <div className="mb-[2%] mt-[10%] sm:hidden flex justify-between gap-5 items-center">
           <div className="sm:hidden flex items-center flex-row">
             <div className="flex gap-2 items-center">
-              <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-                <div className="w-[9px] h-[9px] bg-black rounded-full"></div>
+              <div className="w-[36px] h-[36px] rounded-full border border-black flex justify-center items-center">
+                <div className="w-[7px] h-[7px] bg-black rounded-full"></div>
               </div>
               <div className="">
                 <h4 className="text-left text-xs font-medium leading-[11px]">
