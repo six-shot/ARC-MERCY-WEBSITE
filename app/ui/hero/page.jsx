@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="col-span-9">
               <div className="flex flex-col">
                 <div className="flex items-center gap-3">
-                  <h1 className="sm:text-[65px] text-[40px] leading-[px] ">
+                  <h1 className="sm:text-[65px] text-[40px]  ">
                     ARCHITECTURAL
                   </h1>
                   <div className="sm:flex hidden">
@@ -38,7 +38,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="sm:hidden flex flex-col">
-                  <div className="flex  items-center gap-5">
+                  <div className="flex  items-center gap-5 sm:mt-0 -mt-[3%]">
                     <div className="">
                       <h4 className="text-right text-[10px] leading-[11px] font-medium">
                         MODERN
@@ -48,11 +48,11 @@ export default function Hero() {
                         VILLAS
                       </h4>
                     </div>
-                    <div>
-                      <h1 className="  text-[40px] ">COSTAL</h1>
+                    <div className="">
+                      <h1 className="  text-[40px]  ">COSTAL</h1>
                     </div>
                   </div>
-                  <div className="sm:pb-0 pb-[4%] flex items-center gap-4">
+                  <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[3%]">
                     <h1 className="  text-[40px] ">DESIGN</h1>
 
                     <Image className="w-[50px]" src={star} alt="star" />
@@ -62,7 +62,7 @@ export default function Hero() {
             </div>
             <div className="col-span-3 w-full">
               <div className="flex flex-col sm:gap-16 gap-7">
-                <h5 className="text-xs">
+                <h5 className="text-sm">
                   Explore the symbiotic relationship{" "}
                   <br className="sm:flex hidden" />
                   between architecture and the coast
