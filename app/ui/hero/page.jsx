@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="col-span-9">
               <div className="flex flex-col">
                 <div className="flex items-center gap-3">
-                  <h1 className="sm:text-[65px] text-[40px]  ">
+                  <h1 className="sm:text-[65px] text-[45px]  ">
                     ARCHITECTURAL
                   </h1>
                   <div className="sm:flex hidden">
@@ -49,11 +49,11 @@ export default function Hero() {
                       </h4>
                     </div>
                     <div className="">
-                      <h1 className="  text-[40px]  ">COSTAL</h1>
+                      <h1 className="  text-[45px]  ">BUILDING</h1>
                     </div>
                   </div>
                   <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[3%]">
-                    <h1 className="  text-[40px] ">DESIGN</h1>
+                    <h1 className="  text-[5px] ">DESIGN</h1>
 
                     <Image className="w-[50px]" src={star} alt="star" />
                   </div>
