@@ -3,6 +3,7 @@ import Navbar from "../navbar/page";
 import hero from "@/public/hero.jpg";
 import Image from "next/image";
 import star from "@/public/star.png";
+import ImageSlider from "../slider/page";
 export default function Hero() {
   return (
     <div className="bg-white w-full">
@@ -109,52 +110,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="mt-[5%]">
-          <div
-            style={{
-              // use the src property of the image object
-              backgroundImage: `url(${hero.src})`,
-              // other styles
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              width: "100%",
-              height: "55vh",
-              padding: "5%",
-              borderRadius: "14px",
-            }}
-          >
-            <div className="sm:flex hidden items-start flex-col">
-              <div className="flex items-center gap-2">
-                <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-                  <div className="w-[9px] h-[9px] bg-black rounded-full"></div>
-                </div>
-                <div className="">
-                  <h4 className="text-left text-xs font-medium leading-[15px]">
-                    PARKER ALLENTOWN
-                    <br />
-                    NEWMEXICO 3114
-                  </h4>
-                </div>
-              </div>
-              <div className="grid grid-cols-3 gap-10  mt-[2%] w-full">
-                <div className="border border-black    rounded-[50px] w-full  grid grid-cols-12  items-center">
-                  <div className="col-span-5 border-r-[1px] border-black h-full">
-                    <div className="flex items-center h-full px-5 py-1">
-                      <h5 className="text-xm font-semibold">TRUSTED</h5>
-                    </div>
-                  </div>
-                  <div className="col-span-7">
-                    <div className="flex flex-col  py-1">
-                      <h5 className=" text-sm font-semibold px-3 ">46 Views</h5>
-
-                      <hr className=" border-black h-[1px]" />
-                      <h5 className="text-sm font-semibold px-3 ">46 Views</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ImageSlider />
         </div>
       </div>
     </div>
