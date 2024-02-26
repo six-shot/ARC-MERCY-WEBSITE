@@ -102,9 +102,9 @@ export default function Hero() {
             </div>
             <div className="col-span-7">
               <div className="flex flex-col  py-1">
-                <h5 className=" text-sm font-semibold px-3 ">46 Views</h5>
+                <h5 className=" text-[10px] font-semibold px-3 ">46 Views</h5>
                 <div className="border border-b-black w-full"></div>
-                <h5 className="text-sm font-semibold px-3 ">46 Views</h5>
+                <h5 className="text-[10px] font-semibold px-3 ">46 Views</h5>
               </div>
             </div>
           </div>
