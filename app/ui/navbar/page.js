@@ -6,8 +6,8 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
 export default function Navbar() {
   return (
-    <header className="bg-white w-full">
-      <div className="max-w-[1440px] mx-auto px-[4%] ">
+    <header className=" w-full">
+      <div className=" ">
         <div className="w-full h-[10vh] border-b-[1px] border-black flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="">
