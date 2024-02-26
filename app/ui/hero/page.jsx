@@ -53,7 +53,7 @@ export default function Hero() {
                     </div>
                   </div>
                   <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[3%]">
-                    <h1 className="  text-[5px] ">DESIGN</h1>
+                    <h1 className="  text-[45px] ">DESIGN</h1>
 
                     <Image className="w-[50px]" src={star} alt="star" />
                   </div>
