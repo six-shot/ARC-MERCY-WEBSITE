@@ -16,9 +16,8 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-2">
             <h4 className="font-medium text-base">MENU</h4>
-            <div className="w-[30px] h-[30px] flex justify-center items-center bg-black rounded-full">
-              <IconContext.Provider value={{size:"18px",color:"white"}}>
-                
+            <div className="w-[32px] h-[32px] flex justify-center items-center bg-black rounded-full">
+              <IconContext.Provider value={{ size: "20px", color: "white" }}>
                 <IoIosMenu />
               </IconContext.Provider>
             </div>
