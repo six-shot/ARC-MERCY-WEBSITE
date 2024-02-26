@@ -82,7 +82,7 @@ export default function Hero() {
                 <div className="w-[7px] h-[7px] bg-black rounded-full"></div>
               </div>
               <div className="">
-                <h4 className="text-left text-xs font-medium leading-[11px]">
+                <h4 className="text-left text-[10px] font-medium leading-[11px]">
                   PARKER
                   <br />
                   ALLENTOWN
