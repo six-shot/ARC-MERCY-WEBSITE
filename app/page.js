@@ -1,13 +1,16 @@
-import Image from "next/image";
+"use client";
 import Hero from "./ui/hero/page";
-import ImageSlider from "./ui/slider/page";
+
+import CircleText from "./ui/texteffect/page";
+import CircularTextEffect from "./ui/wonders/page";
 
 export default function Home() {
   return (
     <main>
-      <Hero/>
-
-   
+      <Hero />
+    
+      <CircularTextEffect/>
+    
     </main>
   );
 }
