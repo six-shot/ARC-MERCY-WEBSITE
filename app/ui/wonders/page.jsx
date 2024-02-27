@@ -13,13 +13,16 @@ const CircularTextEffect = () => {
 
   return (
     <div className=" h-screen w-full relative">
-      <div className="max-w-[1440px] mx-auto px-[4%] py-[2%] w-full ">
-        <div className="w-full  h-[20vh] flex justify-start pl-[6%]">
-          <div className="">
-            <h1 id="text" className="text-sm">ARCHITCTURAL- DESIGN</h1>
+      <div className="max-w-[1440px] mx-auto px-[4%] py-[3%] w-full ">
+        <div className="w-[200px]   h-[20vh] flex justify-center items-center">
+          <div className=" ">
+            <div className="">
+              <h1 id="text" className="sm:text-sm text-xs">
+                ARCHITCTURAL- DESIGN
+              </h1>
+            </div>
           </div>
         </div>
-    
       </div>
     </div>
   );
