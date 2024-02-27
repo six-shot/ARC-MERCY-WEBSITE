@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="col-span-9">
               <div className="flex flex-col">
                 <div className="flex items-center gap-3">
-                  <h1 className="sm:text-[65px] text-[40px]  ">
+                  <h1 className="sm:text-[65px] text-[45px]  ">
                     ARCHITECTURAL
                   </h1>
                   <div className="sm:flex hidden">
@@ -49,11 +49,11 @@ export default function Hero() {
                       </h4>
                     </div>
                     <div className="">
-                      <h1 className="  text-[40px]  ">COSTAL</h1>
+                      <h1 className="  text-[45px]  ">BUILDING</h1>
                     </div>
                   </div>
                   <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[3%]">
-                    <h1 className="  text-[40px] ">DESIGN</h1>
+                    <h1 className="  text-[45px] ">DESIGN</h1>
 
                     <Image className="w-[50px]" src={star} alt="star" />
                   </div>
@@ -78,11 +78,11 @@ export default function Hero() {
         <div className="mb-[2%] mt-[10%] sm:hidden flex justify-between gap-5 items-center">
           <div className="sm:hidden flex items-center flex-row">
             <div className="flex gap-2 items-center">
-              <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-                <div className="w-[9px] h-[9px] bg-black rounded-full"></div>
+              <div className="w-[36px] h-[36px] rounded-full border border-black flex justify-center items-center">
+                <div className="w-[7px] h-[7px] bg-black rounded-full"></div>
               </div>
               <div className="">
-                <h4 className="text-left text-xs font-medium leading-[11px]">
+                <h4 className="text-left text-[10px] font-medium leading-[11px]">
                   PARKER
                   <br />
                   ALLENTOWN
@@ -102,9 +102,9 @@ export default function Hero() {
             </div>
             <div className="col-span-7">
               <div className="flex flex-col  py-1">
-                <h5 className=" text-sm font-semibold px-3 ">46 Views</h5>
+                <h5 className=" text-[10px] font-semibold px-3 ">46 Views</h5>
                 <div className="border border-b-black w-full"></div>
-                <h5 className="text-sm font-semibold px-3 ">46 Views</h5>
+                <h5 className="text-[10px] font-semibold px-3 ">46 Views</h5>
               </div>
             </div>
           </div>
