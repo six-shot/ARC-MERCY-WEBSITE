@@ -58,10 +58,14 @@ function ImageSlider() {
               </div>
               <div className="col-span-7">
                 <div className="flex flex-col  py-1">
-                  <h5 className=" text-sm font-semibold px-3 ">46 Views</h5>
+                  <h5 className=" text-xs font-semibold px-3 py-[2px] ">
+                    46 Views
+                  </h5>
 
                   <hr className=" border-black h-[1px]" />
-                  <h5 className="text-sm font-semibold px-3 ">46 Views</h5>
+                  <h5 className="text-xs font-semibold px-3 py-[2px]">
+                    Discover the architectural
+                  </h5>
                 </div>
               </div>
             </div>
