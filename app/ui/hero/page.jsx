@@ -102,11 +102,11 @@ export default function Hero() {
             </div>
             <div className="col-span-7">
               <div className="flex flex-col  py-1">
-                <h5 className=" text-[10px] font-semibold px-3 py-[2px]">
+                <h5 className=" text-[8px] font-semibold px-2 py-[2px]">
                   46 Views
                 </h5>
                 <div className="border border-b-black w-full"></div>
-                <h5 className="text-[10px] font-semibold px-3 py-[2px]">
+                <h5 className="text-[8px] font-semibold px-2 py-[2px]">
                   Discover the architectural
                 </h5>
               </div>
