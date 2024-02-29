@@ -21,7 +21,7 @@ export default function Hero() {
                     <Image className="w-[60px]" src={star} alt="star" />
                   </div>
                 </div>
-                <div className="sm:flex hidden items-center gap-6">
+                <div className="sm:flex hidden items-center gap-6 -mt-7">
                   <div className="">
                     <h4 className="text-right text-xs font-medium">
                       MODERN
@@ -32,13 +32,13 @@ export default function Hero() {
                     </h4>
                   </div>
                   <div className="">
-                    <h1 className=" sm:text-[65px] text-[40px] -mt-8">
+                    <h1 className=" sm:text-[65px] text-[40px] ">
                       COSTAL DESIGN
                     </h1>
                   </div>
                 </div>
                 <div className="sm:hidden flex flex-col">
-                  <div className="flex  items-center gap-5 sm:mt-0 -mt-[3%]">
+                  <div className="flex  items-center gap-5 sm:mt-0 -mt-[6%]">
                     <div className="">
                       <h4 className="text-right text-[10px] leading-[11px] font-medium">
                         MODERN
@@ -52,7 +52,7 @@ export default function Hero() {
                       <h1 className="  text-[45px]  ">BUILDING</h1>
                     </div>
                   </div>
-                  <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[3%]">
+                  <div className="sm:pb-0 pb-[4%] flex items-center gap-4 sm:mt-0 -mt-[6%]">
                     <h1 className="  text-[45px] ">DESIGN</h1>
 
                     <Image className="w-[50px]" src={star} alt="star" />
@@ -60,8 +60,8 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="col-span-3 w-full">
-              <div className="flex flex-col sm:gap-16 gap-7">
+            <div className="col-span-3 w-full -mt-4">
+              <div className="flex flex-col sm:gap-16 gap-4">
                 <h5 className="text-sm">
                   Explore the symbiotic relationship{" "}
                   <br className="sm:flex hidden" />
@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="mb-[2%] mt-[10%] sm:hidden flex justify-between gap-5 items-center">
+        <div className="mb-[2%] sm:mt-[10%] mt-[6%] sm:hidden flex justify-between gap-5 items-center">
           <div className="sm:hidden flex items-center flex-row">
             <div className="flex gap-2 items-center">
               <div className="w-[36px] h-[36px] rounded-full border border-black flex justify-center items-center">
